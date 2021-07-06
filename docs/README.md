@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: '/vuepress/topic.png'
+heroImage: '/vuepress/background.jpg'
 faceImage: '/vuepress/head.png'
 heroImageStyle: {
   maxWidth: '680px',
@@ -16,36 +16,10 @@ actionText: '开启进阶之路'
 actionLink: /views/
 features:
 - title: 
-  details: where there is a will,there is a way.
+  details: be self-disciplined.
 ---
 
-<Clock/>
-
-::: tip 昨天 今天 明天
-
-问一问，人的一生能有几天 <br/>
-算一算，人的一生不过三天 <br/>
-
-跑过去的是昨天 <br/>
-奔过来的是明天 <br/>
-正在走的是今天 <br/>
-
-不要忘记昨天 <br/>
-认真计划明天 <br/>
-好好把握今天 <br/>
-
-但愿到了明天 <br/>
-今天已成昨天 <br/>
-而你依然在我身边 <br/>
-
-春梦无痕，秋夜缠绵 <br/>
-如歌岁月，似水流年 <br/>
-
-但愿到了明天 <br/>
-今天已成昨天 <br/>
-而我依然在你心间  
-
-:::
+<!-- <Clock/> -->
 
 <!-- <CanvasNest color='0,23,255' zIndex='-2'></CanvasNest> -->
 
@@ -78,7 +52,7 @@ features:
     font-size: 20px;
 }
 .home .hero .description {
-    color: #476582 !important;
+    color: #FFF !important;
 }
 .wrap {
     display: flex;

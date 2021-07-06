@@ -116,15 +116,15 @@ export default {
     margin-top: 2.5rem;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     align-content: stretch;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .feature {
-    flex-grow: 1;
-    flex-basis: 30%;
-    max-width: 30%;
+    // flex-grow: 1;
+    // flex-basis: 30%;
+    // max-width: 30%;
     transition: all .5s
     color: var(--text-color);
     h2 {

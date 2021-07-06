@@ -1,5 +1,5 @@
 ---
-title: 12. js常用函数收录
+title: js常用函数收录
 date: 2019-12-16
 sidebarDepth: 0
 tags:
@@ -9,7 +9,7 @@ categories:
 isShowComments: false
 ---
 
-[[toc]]
+
 
 ### 浅拷贝
 
