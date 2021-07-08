@@ -22,7 +22,7 @@ module.exports = {
       collapsable: true,
       children: [
         {
-          title: "JavaScript基础",
+          title: "基础",
           collapsable: true,
           children: [
             "javascript/JavaScript基础/1.函数.md",
@@ -42,7 +42,7 @@ module.exports = {
           ]
         },
         {
-          title: "JavaScript进阶",
+          title: "进阶",
           collapsable: true,
           children: [
             "javascript/JavaScript进阶/1.js异步解决方案.md",
@@ -53,7 +53,7 @@ module.exports = {
           ]
         },
         {
-          title: "JavaScript设计模式",
+          title: "JS设计模式",
           collapsable: true,
           children: [
             {
@@ -78,7 +78,7 @@ module.exports = {
             }
           ]
         },
-        "javascript/js常用函数收录.md",
+        // "javascript/js常用函数收录.md",
       ],
     },
     {

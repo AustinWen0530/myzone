@@ -10,15 +10,14 @@ isShowComments: true
 	<Boxx :changeTime='changeTime' />
 </div>
 
-<p style='display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;'>
+<!-- <p style='display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 0px;margin-inline-end: 0px;'>
 	<img id='imgShow' :class='active' :src='imgSrc'/>
-</p>
+</p> -->
 
-<div id='category'>
+<!-- <div id='category'> -->
 
-[【分类】](/categories/后端/)
 
-</div>
+<!-- </div> -->
 
 <div id='tag'>
 
@@ -28,13 +27,7 @@ isShowComments: true
 
 <div id='fj'>
 
-[【前端】](/views/frontend/EChartsStudy.html) | [【后端】](/views/backend/ArrayList.html)
-
-</div>
-
-<div id='se'>
-
- [【规范】](/views/specification/ali.html) | [【随笔】](/views/essay/20191109.html)
+[【前端】](/views/javascript/JavaScript基础/1.函数.html) 
 
 </div>
 
@@ -46,7 +39,7 @@ isShowComments: true
 			return {
                 changeTime: '2000',
 				index: 2,
-				imgSrc: '/znote/view/比心1.png',
+				imgSrc: '/myzone/view/main.jpg',
 				active: 'active'
 			}
 		},
@@ -58,7 +51,7 @@ isShowComments: true
 		},
 		methods: {
     		randomPic() {
-				let picList = ['kQWXr.gif','rddek.gif']
+				let picList = ['main.jpg']
 				let imgShow = document.getElementById("imgShow")
 				setInterval(() => {
 					if(this.active == 'active'){
@@ -66,7 +59,7 @@ isShowComments: true
 					}else {
 						this.active="active";
 					}
-					this.imgSrc = '/znote/view/' + picList[Math.floor(Math.random() * picList.length)]
+					this.imgSrc = '/myzone/view/' + picList[Math.floor(Math.random() * picList.length)]
 					
 				}, 5000)
 			},
@@ -74,7 +67,7 @@ isShowComments: true
 			updateTime(time) {
 				setInterval(() => {
 			      if (this.index%2 == 0) {
-			      	this.changeTime = '300'
+			      	this.changeTime = '3000'
 			      }
 			      if (this.index%2 != 0) {
 			      	this.changeTime = time

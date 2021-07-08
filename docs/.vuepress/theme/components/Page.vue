@@ -251,7 +251,7 @@ function flatten (items, res) {
     @extend $wrapper
     padding-top 1rem
     padding-bottom 1rem
-    overflow auto
+    margin-top 1rem
     .edit-link
       display inline-block
       a
