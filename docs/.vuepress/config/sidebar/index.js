@@ -84,12 +84,23 @@ module.exports = {
     {
       title: "Vue2.0",
       collapsable: true,
-      children: [],
-    },
-    {
-      title: "Vue-Router",
-      collapsable: true,
-      children: [],
+      children: [
+        {
+          title: "最佳实践",
+          collapsable: true,
+          children: [
+            "vue/vue2.0最佳实践/架构层.md",
+            "vue/vue2.0最佳实践/代码层.md",
+          ]
+        },
+        {
+          title: "进阶",
+          collapsable: true,
+          children: [
+            "vue/vue2.0进阶语法/vue进阶.md",
+          ]
+        }
+      ],
     },
     {
       title: "Vuex",
