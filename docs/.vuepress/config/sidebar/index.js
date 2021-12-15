@@ -78,6 +78,15 @@ module.exports = {
             }
           ]
         },
+        {
+          title: "ES6+相关语法",
+          collapsable: true,
+          children: [
+            "javascript/es6+/1.let和const命令.md",
+            "javascript/es6+/2.变量的解构赋值.md",
+            "javascript/es6+/3.字符串的扩展.md",
+          ]
+        },
         // "javascript/js常用函数收录.md",
       ],
     },
