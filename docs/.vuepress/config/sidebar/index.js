@@ -3,9 +3,13 @@ module.exports = {
   "/views/": [
     "",
     {
-      title: "浏览器原理",
+      title: "浏览器相关",
       collapsable: true,
-      children: [],
+      children: [
+        "浏览器相关/1.浏览器缓存.md",
+        "浏览器相关/2.本地存储.md",
+        "浏览器相关/3.输入url到页面呈现发生了什么.md",
+      ],
     },
     {
       title: "HTML",
@@ -39,7 +43,7 @@ module.exports = {
             "javascript/JavaScript基础/12.spread和rest操作符.md",
             "javascript/JavaScript基础/13.函数柯里化.md",
             "javascript/JavaScript基础/14.深拷贝与浅拷贝.md",
-          ]
+          ],
         },
         {
           title: "进阶",
@@ -50,7 +54,7 @@ module.exports = {
             "javascript/JavaScript进阶/3.async、await实现原理.md",
             "javascript/JavaScript进阶/4.generator实现原理.md",
             "javascript/JavaScript进阶/5.Object.defineProperty和Proxy.md",
-          ]
+          ],
         },
         {
           title: "JS设计模式",
@@ -59,24 +63,24 @@ module.exports = {
             {
               title: "创建型设计模式",
               collapsable: true,
-              children: []
+              children: [],
             },
             {
               title: "结构型设计模式",
               collapsable: true,
-              children: []
+              children: [],
             },
             {
               title: "行为型设计模式",
               collapsable: true,
-              children: []
+              children: [],
             },
             {
               title: "架构型设计模式",
               collapsable: true,
-              children: []
-            }
-          ]
+              children: [],
+            },
+          ],
         },
         {
           title: "ES6+相关语法",
@@ -85,7 +89,7 @@ module.exports = {
             "javascript/es6+/1.let和const命令.md",
             "javascript/es6+/2.变量的解构赋值.md",
             "javascript/es6+/3.字符串的扩展.md",
-          ]
+          ],
         },
         // "javascript/js常用函数收录.md",
       ],
@@ -100,15 +104,13 @@ module.exports = {
           children: [
             "vue/vue2.0最佳实践/架构层.md",
             "vue/vue2.0最佳实践/代码层.md",
-          ]
+          ],
         },
         {
           title: "进阶",
           collapsable: true,
-          children: [
-            "vue/vue2.0进阶语法/vue进阶.md",
-          ]
-        }
+          children: ["vue/vue2.0进阶语法/vue进阶.md"],
+        },
       ],
     },
     {
